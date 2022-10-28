@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.2 (2022-10-28)
+
+#### :memo: Documentation
+* [#20](https://github.com/mainmatter/ember-api-actions/pull/20) README: Add basic documentation ([@Turbo87](https://github.com/Turbo87))
+
 ## v0.1.1 (2022-10-28)
 
 #### :house: Internal
