@@ -1,6 +1,7 @@
-# ember-data-custom-actions
+# @mainmatter/ember-api-actions
 
-[Short description of the addon.]
+This is an [Ember.js] addon allowing you to easily implement non-[CRUD] actions
+for your [Ember Data] models.
 
 
 ## Compatibility
@@ -19,7 +20,16 @@ ember install @mainmatter/ember-api-actions
 
 ## Usage
 
-[Longer description of how to use the addon in apps.]
+```js
+import Model from '@ember-data/model';
+import { apiAction } from '@mainmatter/ember-api-actions';
+
+class User extends Model {
+  async follow() {
+    return await apiAction(this, { method: 'PUT', path: 'follow' });
+  }
+}
+```
 
 
 ## Contributing
@@ -30,3 +40,7 @@ See the [Contributing](CONTRIBUTING.md) guide for details.
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md).
+
+[Ember.js]: https://emberjs.com
+[CRUD]: https://en.wikipedia.org/wiki/Create,_read,_update_and_delete
+[Ember Data]: https://github.com/emberjs/data
