@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
-import { customAction } from 'ember-data-custom-actions';
+import { apiAction } from '@mainmatter/ember-api-actions';
 import { ServerError } from '@ember-data/adapter/error';
 
 module('customAction()', function (hooks) {
@@ -28,7 +28,7 @@ module('customAction()', function (hooks) {
   test('it works', async function (assert) {
     let { user } = await prepare(this);
 
-    let response = await customAction(user, { method: 'POST', path: 'like' });
+    let response = await apiAction(user, { method: 'POST', path: 'like' });
     assert.deepEqual(response, { success: true });
   });
 
@@ -42,7 +42,7 @@ module('customAction()', function (hooks) {
     );
 
     await assert.rejects(
-      customAction(user, { method: 'POST', path: 'like' }),
+      apiAction(user, { method: 'POST', path: 'like' }),
       ServerError
     );
   });

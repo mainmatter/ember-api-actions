@@ -1,4 +1,4 @@
-export async function customAction(record, { method, path, data }) {
+export async function apiAction(record, { method, path, data }) {
   let modelClass = record.constructor;
   let modelName = modelClass.modelName;
   let adapter = record.store.adapterFor(modelName);

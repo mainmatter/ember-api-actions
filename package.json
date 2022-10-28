@@ -1,5 +1,5 @@
 {
-  "name": "ember-data-custom-actions",
+  "name": "@mainmatter/ember-api-actions",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
