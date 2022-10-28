@@ -71,6 +71,9 @@
   "engines": {
     "node": "14.* || 16.* || >= 18"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "ember": {
     "edition": "octane"
   },
