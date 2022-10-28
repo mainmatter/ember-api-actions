@@ -73,5 +73,10 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["@babel/core"]
+    }
   }
 }
