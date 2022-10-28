@@ -11,6 +11,9 @@ concurrency:
   group: ci-${{ github.head_ref || github.ref }}
   cancel-in-progress: true
 
+env:
+  PNPM_VERSION: 7.14.0
+
 jobs:
   test:
     name: "Tests"
@@ -19,17 +22,19 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install Node
-        uses: actions/setup-node@v3
+
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      - uses: actions/setup-node@v3
         with:
           node-version: 14.x
-          cache: npm
-      - name: Install Dependencies
-        run: npm ci
-      - name: Lint
-        run: npm run lint
-      - name: Run Tests
-        run: npm run test:ember
+          cache: pnpm
+
+      - run: pnpm install
+      - run: pnpm lint
+      - run: pnpm test:ember
 
   floating:
     name: "Floating Dependencies"
@@ -38,14 +43,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
       - uses: actions/setup-node@v3
         with:
           node-version: 14.x
-          cache: npm
-      - name: Install Dependencies
-        run: npm install --no-shrinkwrap
-      - name: Run Tests
-        run: npm run test:ember
+          cache: pnpm
+
+      - run: pnpm install --no-lockfile
+      - run: pnpm test:ember
 
   try-scenarios:
     name: ${{ matrix.try-scenario }}
@@ -68,12 +77,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install Node
-        uses: actions/setup-node@v3
+
+      - uses: pnpm/action-setup@v2.2.4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      - uses: actions/setup-node@v3
         with:
           node-version: 14.x
-          cache: npm
-      - name: Install Dependencies
-        run: npm ci
-      - name: Run Tests
-        run: ./node_modules/.bin/ember try:one ${{ matrix.try-scenario }}
+          cache: pnpm
+
+      - run: pnpm install
+      - run: pnpm ember try:one ${{ matrix.try-scenario }}
