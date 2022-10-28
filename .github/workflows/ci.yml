@@ -12,6 +12,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
+  # renovate: datasource=npm depName=pnpm
   PNPM_VERSION: 7.14.0
 
 jobs:
