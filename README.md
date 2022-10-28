@@ -13,7 +13,7 @@
 ## Installation
 
 ```
-ember install ember-data-custom-actions
+ember install @mainmatter/ember-api-actions
 ```
 
 

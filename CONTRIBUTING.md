@@ -3,7 +3,7 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd ember-data-custom-actions`
+* `cd ember-api-actions`
 * `npm install`
 
 ## Linting
