@@ -1,6 +1,6 @@
 {
   "name": "@mainmatter/ember-api-actions",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
@@ -79,7 +79,9 @@
   },
   "pnpm": {
     "peerDependencyRules": {
-      "ignoreMissing": ["@babel/core"]
+      "ignoreMissing": [
+        "@babel/core"
+      ]
     }
   }
 }
