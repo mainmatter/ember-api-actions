@@ -10,7 +10,10 @@ const VALID_METHODS = [
   'PATCH',
 ];
 
-export async function apiAction(record, { method, path, data }) {
+export async function apiAction(
+  record,
+  { requestType = 'updateRecord', method, path, data }
+) {
   assert(`Missing \`method\` option`, method);
   assert(
     [
@@ -24,7 +27,6 @@ export async function apiAction(record, { method, path, data }) {
   let modelName = modelClass.modelName;
   let adapter = record.store.adapterFor(modelName);
 
-  let requestType = 'updateRecord';
   let baseUrl = adapter.buildURL(modelName, record.id, null, requestType);
   let url = path ? `${baseUrl}/${path}` : baseUrl;
 
