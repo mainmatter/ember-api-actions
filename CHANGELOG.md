@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.2.0 (2022-11-02)
+
+#### :rocket: Enhancement
+* [#26](https://github.com/mainmatter/ember-api-actions/pull/26) Add `requestType` option ([@Turbo87](https://github.com/Turbo87))
+* [#25](https://github.com/mainmatter/ember-api-actions/pull/25) Add `method` validity assertions ([@Turbo87](https://github.com/Turbo87))
+
+
 ## v0.1.2 (2022-10-28)
 
 #### :memo: Documentation
