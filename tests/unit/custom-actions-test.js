@@ -32,6 +32,22 @@ module('customAction()', function (hooks) {
     assert.deepEqual(response, { success: true });
   });
 
+  test('requestType option changes the base URL', async function (assert) {
+    let { worker, rest, user } = await prepare(this);
+
+    worker.use(
+      rest.post('/users', (req, res, ctx) => {
+        return res(ctx.json({ requestType: 'works' }));
+      })
+    );
+
+    let response = await apiAction(user, {
+      method: 'POST',
+      requestType: 'createRecord',
+    });
+    assert.deepEqual(response, { requestType: 'works' });
+  });
+
   test('it fails as expected', async function (assert) {
     let { worker, rest, user } = await prepare(this);
 
