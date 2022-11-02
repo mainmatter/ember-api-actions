@@ -32,6 +32,19 @@ module('customAction()', function (hooks) {
     assert.deepEqual(response, { success: true });
   });
 
+  test('it works without options', async function (assert) {
+    let { worker, rest, user } = await prepare(this);
+
+    worker.use(
+      rest.get('/users/42', (req, res, ctx) => {
+        return res(ctx.json({ no: 'options' }));
+      })
+    );
+
+    let response = await apiAction(user);
+    assert.deepEqual(response, { no: 'options' });
+  });
+
   test('it fails as expected', async function (assert) {
     let { worker, rest, user } = await prepare(this);
 
