@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.3.0 (2022-11-07)
+
+#### :rocket: Enhancement
+* [#31](https://github.com/mainmatter/ember-api-actions/pull/31) Pass record snapshots to `buildURL()` method ([@Turbo87](https://github.com/Turbo87))
+
+#### :house: Internal
+* [#32](https://github.com/mainmatter/ember-api-actions/pull/32) ember-try: Replace ember-source with ember-data scenarios ([@Turbo87](https://github.com/Turbo87))
+
+
 ## v0.2.0 (2022-11-02)
 
 #### :rocket: Enhancement
