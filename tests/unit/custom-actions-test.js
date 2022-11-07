@@ -2,6 +2,7 @@ import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 import { apiAction } from '@mainmatter/ember-api-actions';
 import { ServerError } from '@ember-data/adapter/error';
+import RESTAdapter from '@ember-data/adapter/rest';
 
 module('customAction()', function (hooks) {
   setupTest(hooks);
@@ -61,5 +62,30 @@ module('customAction()', function (hooks) {
       apiAction(user, { method: 'POST', path: 'like' }),
       ServerError
     );
+  });
+
+  test('buildURL() can use the snapshot parameter', async function (assert) {
+    class UserAdapter extends RESTAdapter {
+      buildURL(modelName, id, snapshot, requestType) {
+        if (requestType === 'updateRecord') {
+          return `/users/${snapshot.record.name}`;
+        } else {
+          return super.buildURL(...arguments);
+        }
+      }
+    }
+
+    this.owner.register('adapter:user', UserAdapter);
+
+    let { worker, rest, user } = await prepare(this);
+
+    worker.use(
+      rest.post('/users/rwjblue/like', (req, res, ctx) => {
+        return res(ctx.json({ custom: 'buildURL' }));
+      })
+    );
+
+    let response = await apiAction(user, { method: 'POST', path: 'like' });
+    assert.deepEqual(response, { custom: 'buildURL' });
   });
 });
