@@ -1,6 +1,5 @@
 'use strict';
 
-const getChannelURL = require('ember-source-channel-url');
 const { embroiderSafe, embroiderOptimized } = require('@embroider/test-setup');
 
 module.exports = async function () {
@@ -8,60 +7,34 @@ module.exports = async function () {
     usePnpm: true,
     scenarios: [
       {
-        name: 'ember-lts-3.28',
+        name: 'ember-data-3.28',
         npm: {
           devDependencies: {
-            'ember-source': '~3.28.0',
+            'ember-data': '3.28.12',
           },
         },
       },
       {
-        name: 'ember-lts-4.4',
+        name: 'ember-data-4.4',
         npm: {
           devDependencies: {
-            'ember-source': '~4.4.0',
+            'ember-data': '4.4.1',
           },
         },
       },
       {
-        name: 'ember-release',
+        name: 'ember-data-4.7',
         npm: {
           devDependencies: {
-            'ember-source': await getChannelURL('release'),
+            'ember-data': '4.7.3',
           },
         },
       },
       {
-        name: 'ember-beta',
+        name: 'ember-data-4.8',
         npm: {
           devDependencies: {
-            'ember-source': await getChannelURL('beta'),
-          },
-        },
-      },
-      {
-        name: 'ember-canary',
-        npm: {
-          devDependencies: {
-            'ember-source': await getChannelURL('canary'),
-          },
-        },
-      },
-      {
-        name: 'ember-classic',
-        env: {
-          EMBER_OPTIONAL_FEATURES: JSON.stringify({
-            'application-template-wrapper': true,
-            'default-async-observers': false,
-            'template-only-glimmer-components': false,
-          }),
-        },
-        npm: {
-          devDependencies: {
-            'ember-source': '~3.28.0',
-          },
-          ember: {
-            edition: 'classic',
+            'ember-data': '4.8.2',
           },
         },
       },
