@@ -24,7 +24,6 @@ specifiers:
   ember-qunit: 6.0.0
   ember-resolver: 8.0.3
   ember-source: 4.8.2
-  ember-source-channel-url: 3.0.0
   ember-template-lint: 4.17.0
   ember-try: 2.0.0
   eslint: 7.32.0
@@ -68,7 +67,6 @@ devDependencies:
   ember-qunit: 6.0.0_qlun7vkcguccocg2zpe7gp5kwa
   ember-resolver: 8.0.3
   ember-source: 4.8.2_gsocywzcpltb62s22lnmo6ims4
-  ember-source-channel-url: 3.0.0
   ember-template-lint: 4.17.0_ember-cli-htmlbars@6.1.1
   ember-try: 2.0.0
   eslint: 7.32.0
