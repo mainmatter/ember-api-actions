@@ -27,7 +27,9 @@ export async function apiAction(
   let modelName = modelClass.modelName;
   let adapter = record.store.adapterFor(modelName);
 
-  let baseUrl = adapter.buildURL(modelName, record.id, null, requestType);
+  let snapshot = record._createSnapshot();
+
+  let baseUrl = adapter.buildURL(modelName, record.id, snapshot, requestType);
   let url = path ? `${baseUrl}/${path}` : baseUrl;
 
   return await adapter.ajax(url, method, { data });
