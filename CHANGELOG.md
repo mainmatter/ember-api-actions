@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.4.0 (2022-11-11)
+
+#### :rocket: Enhancement
+* [#37](https://github.com/mainmatter/ember-api-actions/pull/37) Implement experimental `adapterAction()` function ([@Turbo87](https://github.com/Turbo87))
+
+
 ## v0.3.0 (2022-11-07)
 
 #### :rocket: Enhancement
