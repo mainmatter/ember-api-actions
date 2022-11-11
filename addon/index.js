@@ -34,3 +34,24 @@ export async function apiAction(
 
   return await adapter.ajax(url, method, { data });
 }
+
+/** @experimental */
+export async function adapterAction(
+  adapter,
+  modelName,
+  { requestType = 'createRecord', method, path, data }
+) {
+  assert(`Missing \`method\` option`, method);
+  assert(
+    [
+      `Invalid \`method\` option: ${method}`,
+      `Valid options: ${VALID_METHODS.join(', ')}`,
+    ].join('\n'),
+    VALID_METHODS.includes(method)
+  );
+
+  let baseUrl = adapter.buildURL(modelName, null, null, requestType);
+  let url = path ? `${baseUrl}/${path}` : baseUrl;
+
+  return await adapter.ajax(url, method, { data });
+}
