@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@ember/optional-features': 2.0.0
   '@ember/test-helpers': 2.8.1
-  '@embroider/test-setup': 2.0.1
+  '@embroider/test-setup': 2.0.2
   '@glimmer/component': 1.1.2
   '@glimmer/tracking': 1.1.2
   '@release-it-plugins/lerna-changelog': 5.0.0
@@ -47,7 +47,7 @@ dependencies:
 devDependencies:
   '@ember/optional-features': 2.0.0
   '@ember/test-helpers': 2.8.1_ember-source@4.9.0
-  '@embroider/test-setup': 2.0.1
+  '@embroider/test-setup': 2.0.2
   '@glimmer/component': 1.1.2
   '@glimmer/tracking': 1.1.2
   '@release-it-plugins/lerna-changelog': 5.0.0_release-it@15.5.0
@@ -1788,8 +1788,8 @@ packages:
       typescript-memoize: 1.1.1
     dev: true
 
-  /@embroider/test-setup/2.0.1:
-    resolution: {integrity: sha512-IPUBb9tiBckcr3YxOAh43FJHIOvFxA6QO1MLvcIi4SiUA9i40oEoweVk86uLn964HvpfJTKUNLKxbDEoZGcogA==}
+  /@embroider/test-setup/2.0.2:
+    resolution: {integrity: sha512-0rapCTr7T94TprLW11q60Lddeuom+bkBI35zyCsAp7A7idlTUekH9k7BTx9rbnPFuQJkwILGuZ05t03IAyQ4Ig==}
     engines: {node: 12.* || 14.* || >= 16}
     dependencies:
       lodash: 4.17.21
