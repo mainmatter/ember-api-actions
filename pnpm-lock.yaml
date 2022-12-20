@@ -28,7 +28,7 @@ specifiers:
   ember-try: 2.0.0
   eslint: 7.32.0
   eslint-config-prettier: 8.5.0
-  eslint-plugin-ember: 11.2.1
+  eslint-plugin-ember: 11.3.0
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-qunit: 7.3.4
@@ -71,7 +71,7 @@ devDependencies:
   ember-try: 2.0.0
   eslint: 7.32.0
   eslint-config-prettier: 8.5.0_eslint@7.32.0
-  eslint-plugin-ember: 11.2.1_any3h6snb6yif56cdlpkkue5we
+  eslint-plugin-ember: 11.3.0_any3h6snb6yif56cdlpkkue5we
   eslint-plugin-node: 11.1.0_eslint@7.32.0
   eslint-plugin-prettier: 4.2.1_azklrodwt66esftms4odwjmsay
   eslint-plugin-qunit: 7.3.4_eslint@7.32.0
@@ -6062,8 +6062,8 @@ packages:
     resolution: {integrity: sha512-Uk/TVLt6Nf6Xoz7C1iYuZjOSdJxe5aaauGRke8JhKeJwD66Y61/pY2FjtLP04Ooq9PwV34bzrkKkU2UZ5FtDRA==}
     dev: true
 
-  /eslint-plugin-ember/11.2.1_any3h6snb6yif56cdlpkkue5we:
-    resolution: {integrity: sha512-CUC1ZHC2QBksBCMkl9GSCoKcC+IGPkSEhO6qc+R5pW0Llw44m4bEsxoVVNDpZNe/TQRiFmv3Lot9QdtygfAiIw==}
+  /eslint-plugin-ember/11.3.0_any3h6snb6yif56cdlpkkue5we:
+    resolution: {integrity: sha512-rQztrSaoPPVqqBT7+cO2bD11mMcjYkvRqc+MHwvvW57LtQOiaHjcreX2mOHRhGtv+QxYgY8L65eYQB1JQpojww==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
       eslint: '>= 7'
@@ -6077,7 +6077,7 @@ packages:
       eslint-utils: 3.0.0_eslint@7.32.0
       estraverse: 5.3.0
       lodash.kebabcase: 4.1.1
-      magic-string: 0.26.7
+      magic-string: 0.27.0
       requireindex: 1.2.0
       snake-case: 3.0.4
     transitivePeerDependencies:
@@ -8769,6 +8769,13 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       sourcemap-codec: 1.4.8
+    dev: true
+
+  /magic-string/0.27.0:
+    resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
   /make-dir/3.1.0:
