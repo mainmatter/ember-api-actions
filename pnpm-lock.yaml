@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@ember/optional-features': 2.0.0
-  '@ember/test-helpers': 2.9.1
+  '@ember/test-helpers': 2.9.3
   '@embroider/test-setup': 2.0.2
   '@glimmer/component': 1.1.2
   '@glimmer/tracking': 1.1.2
@@ -46,7 +46,7 @@ dependencies:
 
 devDependencies:
   '@ember/optional-features': 2.0.0
-  '@ember/test-helpers': 2.9.1_ember-source@4.9.3
+  '@ember/test-helpers': 2.9.3_ember-source@4.9.3
   '@embroider/test-setup': 2.0.2
   '@glimmer/component': 1.1.2
   '@glimmer/tracking': 1.1.2
@@ -1726,8 +1726,8 @@ packages:
       - supports-color
     dev: true
 
-  /@ember/test-helpers/2.9.1_ember-source@4.9.3:
-    resolution: {integrity: sha512-1ZFZCnNfkXcQOf6Vxep/vbZMwFLfD+8heiLiQ6LSB5SY9F3VCF1yNslfgtDqmyQZXhAbbhRTDhy+rHuzzpd+yA==}
+  /@ember/test-helpers/2.9.3_ember-source@4.9.3:
+    resolution: {integrity: sha512-ejVg4Dj+G/6zyLvQsYOvmGiOLU6AS94tY4ClaO1E2oVvjjtVJIRmVLFN61I+DuyBg9hS3cFoPjQRTZB9MRIbxQ==}
     engines: {node: 10.* || 12.* || 14.* || 15.* || >= 16.*}
     peerDependencies:
       ember-source: '>=3.8.0'
