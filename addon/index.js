@@ -12,7 +12,7 @@ const VALID_METHODS = [
 
 export async function apiAction(
   record,
-  { requestType = 'updateRecord', method, path, data }
+  { requestType = 'updateRecord', method, path, data, adapterOptions }
 ) {
   assert(`Missing \`method\` option`, method);
   assert(
@@ -28,6 +28,10 @@ export async function apiAction(
   let adapter = record.store.adapterFor(modelName);
 
   let snapshot = record._createSnapshot();
+
+  if (adapterOptions) {
+    snapshot.adapterOptions = adapterOptions;
+  }
 
   let baseUrl = adapter.buildURL(modelName, record.id, snapshot, requestType);
   let url = path ? `${baseUrl}/${path}` : baseUrl;

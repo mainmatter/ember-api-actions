@@ -88,4 +88,33 @@ module('customAction()', function (hooks) {
     let response = await apiAction(user, { method: 'POST', path: 'like' });
     assert.deepEqual(response, { custom: 'buildURL' });
   });
+
+  test('snapshot can receive adapterOptions', async function (assert) {
+    class UserAdapter extends RESTAdapter {
+      buildURL(modelName, id, snapshot) {
+        if (snapshot.adapterOptions?.test === true) {
+          return `/users/it-works`;
+        } else {
+          return super.buildURL(...arguments);
+        }
+      }
+    }
+
+    this.owner.register('adapter:user', UserAdapter);
+
+    let { worker, rest, user } = await prepare(this);
+
+    worker.use(
+      rest.post('/users/it-works/like', (req, res, ctx) => {
+        return res(ctx.json({ adapterOptions: 'it works' }));
+      })
+    );
+
+    let response = await apiAction(user, {
+      method: 'POST',
+      path: 'like',
+      adapterOptions: { test: true },
+    });
+    assert.deepEqual(response, { adapterOptions: 'it works' });
+  });
 });
