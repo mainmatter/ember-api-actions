@@ -1,5 +1,14 @@
 # Changelog
 
+
+## v0.4.1 (2023-01-31)
+
+#### :rocket: Enhancement
+* [#128](https://github.com/mainmatter/ember-api-actions/pull/128) Add support for `adapterOptions` ([@SkoebaSteve](https://github.com/SkoebaSteve))
+
+#### Committers: 1
+- Steef Janssen ([@SkoebaSteve](https://github.com/SkoebaSteve))
+
 ## v0.4.0 (2022-11-11)
 
 #### :rocket: Enhancement
