@@ -24,7 +24,7 @@ specifiers:
   ember-qunit: 6.1.1
   ember-resolver: 10.0.0
   ember-source: 4.10.0
-  ember-template-lint: 5.5.0
+  ember-template-lint: 5.5.1
   ember-try: 2.0.0
   eslint: 7.32.0
   eslint-config-prettier: 8.6.0
@@ -67,7 +67,7 @@ devDependencies:
   ember-qunit: 6.1.1_6j2wkb4dcyok242cgjvcmw6rjq
   ember-resolver: 10.0.0_ember-source@4.10.0
   ember-source: 4.10.0_klhxxmjkcvtuhwro2kkspsfzna
-  ember-template-lint: 5.5.0
+  ember-template-lint: 5.5.1
   ember-try: 2.0.0
   eslint: 7.32.0
   eslint-config-prettier: 8.6.0_eslint@7.32.0
@@ -5759,8 +5759,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-template-lint/5.5.0:
-    resolution: {integrity: sha512-mKmJy+pnQhkMif/tMCdAxrPgR7h5BDE+qZrb0xPDuOl9kzNRC0gcTjx0xrXMj78BCdO3mi/JEkwI9kzMPWS3gg==}
+  /ember-template-lint/5.5.1:
+    resolution: {integrity: sha512-EQgHRBWhSV46REzjaIp7B99tswBpY0IeKh2VNQT+AocL4oEQ9Bt0nqtNhtePA1ZX6xq5S8gBGIfAPN/FzIXkPQ==}
     engines: {node: ^14.18.0 || ^16.0.0 || >= 18.0.0}
     hasBin: true
     dependencies:
