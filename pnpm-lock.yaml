@@ -23,7 +23,7 @@ specifiers:
   ember-page-title: 7.0.0
   ember-qunit: 6.1.1
   ember-resolver: 10.0.0
-  ember-source: 4.10.0
+  ember-source: 4.11.0
   ember-template-lint: 5.5.1
   ember-try: 2.0.0
   eslint: 7.32.0
@@ -46,7 +46,7 @@ dependencies:
 
 devDependencies:
   '@ember/optional-features': 2.0.0
-  '@ember/test-helpers': 2.9.3_ember-source@4.10.0
+  '@ember/test-helpers': 2.9.3_ember-source@4.11.0
   '@embroider/test-setup': 2.1.1
   '@glimmer/component': 1.1.2
   '@glimmer/tracking': 1.1.2
@@ -64,9 +64,9 @@ devDependencies:
   ember-disable-prototype-extensions: 1.1.3
   ember-load-initializers: 2.1.2
   ember-page-title: 7.0.0
-  ember-qunit: 6.1.1_6j2wkb4dcyok242cgjvcmw6rjq
-  ember-resolver: 10.0.0_ember-source@4.10.0
-  ember-source: 4.10.0_klhxxmjkcvtuhwro2kkspsfzna
+  ember-qunit: 6.1.1_ctcbkj4xro4mdfer2osyhq5z4q
+  ember-resolver: 10.0.0_ember-source@4.11.0
+  ember-source: 4.11.0_klhxxmjkcvtuhwro2kkspsfzna
   ember-template-lint: 5.5.1
   ember-try: 2.0.0
   eslint: 7.32.0
@@ -1731,7 +1731,7 @@ packages:
       - supports-color
     dev: true
 
-  /@ember/test-helpers/2.9.3_ember-source@4.10.0:
+  /@ember/test-helpers/2.9.3_ember-source@4.11.0:
     resolution: {integrity: sha512-ejVg4Dj+G/6zyLvQsYOvmGiOLU6AS94tY4ClaO1E2oVvjjtVJIRmVLFN61I+DuyBg9hS3cFoPjQRTZB9MRIbxQ==}
     engines: {node: 10.* || 12.* || 14.* || 15.* || >= 16.*}
     peerDependencies:
@@ -1739,13 +1739,13 @@ packages:
     dependencies:
       '@ember/test-waiters': 3.0.2
       '@embroider/macros': 1.10.0
-      '@embroider/util': 1.10.0_ember-source@4.10.0
+      '@embroider/util': 1.10.0_ember-source@4.11.0
       broccoli-debug: 0.6.5
       broccoli-funnel: 3.0.8
       ember-cli-babel: 7.26.11
       ember-cli-htmlbars: 6.2.0
       ember-destroyable-polyfill: 2.0.3
-      ember-source: 4.10.0_klhxxmjkcvtuhwro2kkspsfzna
+      ember-source: 4.11.0_klhxxmjkcvtuhwro2kkspsfzna
     transitivePeerDependencies:
       - '@babel/core'
       - '@glint/template'
@@ -1802,7 +1802,7 @@ packages:
       resolve: 1.22.1
     dev: true
 
-  /@embroider/util/1.10.0_ember-source@4.10.0:
+  /@embroider/util/1.10.0_ember-source@4.11.0:
     resolution: {integrity: sha512-utAFKoq6ajI27jyqjvX3PiGL4m+ZyGVlVNbSbE/nOqi2llRyAkh5ltH1WkIK7jhdwQFJouo1NpOSj9J3/HDa3A==}
     engines: {node: 14.* || >= 16}
     peerDependencies:
@@ -1815,7 +1815,7 @@ packages:
       '@embroider/macros': 1.10.0
       broccoli-funnel: 3.0.8
       ember-cli-babel: 7.26.11
-      ember-source: 4.10.0_klhxxmjkcvtuhwro2kkspsfzna
+      ember-source: 4.11.0_klhxxmjkcvtuhwro2kkspsfzna
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5640,7 +5640,7 @@ packages:
       - supports-color
     dev: true
 
-  /ember-qunit/6.1.1_6j2wkb4dcyok242cgjvcmw6rjq:
+  /ember-qunit/6.1.1_ctcbkj4xro4mdfer2osyhq5z4q:
     resolution: {integrity: sha512-3/jCpoecltFV6vm7GCtSDNRxBzWx96nP+QrbereJAnioSaGeLe+slKL3l80mGzMYDTvn7ESobZ+Ba+OQ1vMMKQ==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
@@ -5653,7 +5653,7 @@ packages:
       ember-auto-import: 2.6.0_webpack@5.75.0
       ember-cli-babel: 7.26.11
       ember-cli-test-loader: 3.0.0
-      ember-source: 4.10.0_klhxxmjkcvtuhwro2kkspsfzna
+      ember-source: 4.11.0_klhxxmjkcvtuhwro2kkspsfzna
       qunit: 2.19.4
       resolve-package-path: 4.0.3
       silent-error: 1.1.1
@@ -5663,7 +5663,7 @@ packages:
       - webpack
     dev: true
 
-  /ember-resolver/10.0.0_ember-source@4.10.0:
+  /ember-resolver/10.0.0_ember-source@4.11.0:
     resolution: {integrity: sha512-e99wFJ4ZpleJ6JMEcIk4WEYP4s3nc+9/iNSXtwBHXC8ADJHJTeN3HjnT/eEbFbswdui4FYxIYuK+UCdP09811Q==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
@@ -5674,7 +5674,7 @@ packages:
         optional: true
     dependencies:
       ember-cli-babel: 7.26.11
-      ember-source: 4.10.0_klhxxmjkcvtuhwro2kkspsfzna
+      ember-source: 4.11.0_klhxxmjkcvtuhwro2kkspsfzna
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5703,8 +5703,8 @@ packages:
       - encoding
     dev: true
 
-  /ember-source/4.10.0_klhxxmjkcvtuhwro2kkspsfzna:
-    resolution: {integrity: sha512-Y7+M+vSygMrpq4szsnpik3PxdVVA7ApuwU2L/l9Os+qpPqIKy4hT0Rw/17z4b87HNEX03jv7ueMbgcpxjUf1Kw==}
+  /ember-source/4.11.0_klhxxmjkcvtuhwro2kkspsfzna:
+    resolution: {integrity: sha512-SNRHsQOvF3C9emS7Rg4zcFdwY6aiSkV/7CG+KBpmzLY6hIWQNruzEDZINpNgqBn7CicAJ6g573WG7zu6458agQ==}
     engines: {node: '>= 14.*'}
     peerDependencies:
       '@glimmer/component': ^1.1.2
