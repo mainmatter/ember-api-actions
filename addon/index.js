@@ -12,7 +12,7 @@ const VALID_METHODS = [
 
 export async function apiAction(
   record,
-  { requestType = 'updateRecord', method, path, data, adapterOptions }
+  { requestType = 'updateRecord', method, path = '', data, adapterOptions }
 ) {
   assert(`Missing \`method\` option`, method);
   assert(
@@ -34,7 +34,22 @@ export async function apiAction(
   }
 
   let baseUrl = adapter.buildURL(modelName, record.id, snapshot, requestType);
-  let url = path ? `${baseUrl}/${path}` : baseUrl;
+  let url;
+  const [baseUrlNoQueries, baseQueries] = baseUrl.split('?');
+  const [pathNoQueries, pathQueries] = path.split('?');
+
+  if (baseUrlNoQueries.charAt(baseUrl.length - 1) === '/') {
+    url = `${baseUrlNoQueries}${pathNoQueries}`;
+  } else {
+    url = `${baseUrlNoQueries}/${pathNoQueries}`;
+  }
+
+  const baseSearchParams = new URLSearchParams(baseQueries);
+  const pathSearchParams = new URLSearchParams(pathQueries);
+  for (const [k, v] of pathSearchParams) {
+    baseSearchParams.set(k, v);
+  }
+  url = `${url}?${baseSearchParams.toString()}`;
 
   return await adapter.ajax(url, method, { data });
 }
