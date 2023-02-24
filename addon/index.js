@@ -58,7 +58,7 @@ export async function apiAction(
 export async function adapterAction(
   adapter,
   modelName,
-  { requestType = 'createRecord', method, path, data }
+  { requestType = 'createRecord', method, path = '', data }
 ) {
   assert(`Missing \`method\` option`, method);
   assert(
@@ -70,7 +70,22 @@ export async function adapterAction(
   );
 
   let baseUrl = adapter.buildURL(modelName, null, null, requestType);
-  let url = path ? `${baseUrl}/${path}` : baseUrl;
+  let url;
+  const [baseUrlNoQueries, baseQueries] = baseUrl.split('?');
+  const [pathNoQueries, pathQueries] = path.split('?');
+
+  if (baseUrlNoQueries.charAt(baseUrl.length - 1) === '/') {
+    url = `${baseUrlNoQueries}${pathNoQueries}`;
+  } else {
+    url = `${baseUrlNoQueries}/${pathNoQueries}`;
+  }
+
+  const baseSearchParams = new URLSearchParams(baseQueries);
+  const pathSearchParams = new URLSearchParams(pathQueries);
+  for (const [k, v] of pathSearchParams) {
+    baseSearchParams.set(k, v);
+  }
+  url = `${url}?${baseSearchParams.toString()}`;
 
   return await adapter.ajax(url, method, { data });
 }
