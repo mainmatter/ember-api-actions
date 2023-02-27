@@ -117,4 +117,21 @@ module('customAction()', function (hooks) {
     });
     assert.deepEqual(response, { adapterOptions: 'it works' });
   });
+
+  test('query params via `path` work correctly', async function (assert) {
+    let { worker, rest, user } = await prepare(this);
+
+    worker.use(
+      rest.post('/users/42/foo', (req, res, ctx) => {
+        let query = req.url.searchParams.get('query');
+        return res(ctx.json({ query }));
+      })
+    );
+
+    let response = await apiAction(user, {
+      method: 'POST',
+      path: 'foo?query=param',
+    });
+    assert.deepEqual(response, { query: 'param' });
+  });
 });
