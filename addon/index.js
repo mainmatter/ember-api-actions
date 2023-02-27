@@ -61,5 +61,18 @@ export async function adapterAction(
 }
 
 function addPath(baseUrl, path) {
-  return path ? `${baseUrl}/${path}` : baseUrl
+  if (!path) return baseUrl;
+
+  let url = new URL(baseUrl, location.href);
+
+  let [pathname, search] = path.split('?', 2);
+  url.pathname += `/${pathname}`;
+
+  if (search) {
+    new URLSearchParams(search).forEach((value, name) => {
+      url.searchParams.append(name, value);
+    });
+  }
+
+  return url.href;
 }

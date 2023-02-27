@@ -134,4 +134,34 @@ module('customAction()', function (hooks) {
     });
     assert.deepEqual(response, { query: 'param' });
   });
+
+  test('query params from buildURL() work correctly', async function (assert) {
+    class UserAdapter extends RESTAdapter {
+      buildURL(modelName, id, snapshot, requestType) {
+        if (requestType === 'updateRecord') {
+          return `/foo?q1=adapter&q2=adapter`;
+        } else {
+          return super.buildURL(...arguments);
+        }
+      }
+    }
+
+    this.owner.register('adapter:user', UserAdapter);
+
+    let { worker, rest, user } = await prepare(this);
+
+    worker.use(
+      rest.post('/foo/bar', (req, res, ctx) => {
+        let q1 = req.url.searchParams.getAll('q1');
+        let q2 = req.url.searchParams.getAll('q2');
+        return res(ctx.json({ q1, q2 }));
+      })
+    );
+
+    let response = await apiAction(user, {
+      method: 'POST',
+      path: 'bar?q1=path',
+    });
+    assert.deepEqual(response, { q1: ['adapter', 'path'], q2: ['adapter'] });
+  });
 });
