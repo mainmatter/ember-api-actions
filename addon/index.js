@@ -34,7 +34,7 @@ export async function apiAction(
   }
 
   let baseUrl = adapter.buildURL(modelName, record.id, snapshot, requestType);
-  let url = path ? `${baseUrl}/${path}` : baseUrl;
+  let url = addPath(baseUrl, path);
 
   return await adapter.ajax(url, method, { data });
 }
@@ -55,7 +55,24 @@ export async function adapterAction(
   );
 
   let baseUrl = adapter.buildURL(modelName, null, null, requestType);
-  let url = path ? `${baseUrl}/${path}` : baseUrl;
+  let url = addPath(baseUrl, path);
 
   return await adapter.ajax(url, method, { data });
+}
+
+function addPath(baseUrl, path) {
+  if (!path) return baseUrl;
+
+  let url = new URL(baseUrl, location.href);
+
+  let [pathname, search] = path.split('?', 2);
+  url.pathname += `/${pathname}`;
+
+  if (search) {
+    new URLSearchParams(search).forEach((value, name) => {
+      url.searchParams.append(name, value);
+    });
+  }
+
+  return url.href;
 }
