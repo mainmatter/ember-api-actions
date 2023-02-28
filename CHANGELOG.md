@@ -1,6 +1,13 @@
 # Changelog
 
 
+
+## v0.5.0 (2023-02-28)
+
+#### :bug: Bug Fix
+* [#151](https://github.com/mainmatter/ember-api-actions/pull/151) Allow `buildURL()` overrides to return query parameters ([@Turbo87](https://github.com/Turbo87))
+
+
 ## v0.4.1 (2023-01-31)
 
 #### :rocket: Enhancement
