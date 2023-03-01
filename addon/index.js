@@ -43,7 +43,7 @@ export async function apiAction(
 export async function adapterAction(
   adapter,
   modelName,
-  { requestType = 'createRecord', method, path, data }
+  { requestType = 'createRecord', method, path, data, adapterOptions }
 ) {
   assert(`Missing \`method\` option`, method);
   assert(
@@ -54,7 +54,12 @@ export async function adapterAction(
     VALID_METHODS.includes(method)
   );
 
-  let baseUrl = adapter.buildURL(modelName, null, null, requestType);
+  let baseUrl = adapter.buildURL(
+    modelName,
+    null,
+    { adapterOptions },
+    requestType
+  );
   let url = addPath(baseUrl, path);
 
   return await adapter.ajax(url, method, { data });
