@@ -27,7 +27,7 @@ specifiers:
   ember-template-lint: 5.6.0
   ember-try: 2.0.0
   eslint: 7.32.0
-  eslint-config-prettier: 8.6.0
+  eslint-config-prettier: 8.7.0
   eslint-plugin-ember: 11.4.7
   eslint-plugin-node: 11.1.0
   eslint-plugin-prettier: 4.2.1
@@ -70,10 +70,10 @@ devDependencies:
   ember-template-lint: 5.6.0
   ember-try: 2.0.0
   eslint: 7.32.0
-  eslint-config-prettier: 8.6.0_eslint@7.32.0
+  eslint-config-prettier: 8.7.0_eslint@7.32.0
   eslint-plugin-ember: 11.4.7_eslint@7.32.0
   eslint-plugin-node: 11.1.0_eslint@7.32.0
-  eslint-plugin-prettier: 4.2.1_2fbugv7hbzbahj5qm3ztcno6by
+  eslint-plugin-prettier: 4.2.1_uiswlpulcu4wppk3zxswnxg2xq
   eslint-plugin-qunit: 7.3.4_eslint@7.32.0
   loader.js: 4.7.0
   msw: 1.1.0
@@ -6074,8 +6074,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier/8.6.0_eslint@7.32.0:
-    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
+  /eslint-config-prettier/8.7.0_eslint@7.32.0:
+    resolution: {integrity: sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -6136,7 +6136,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_2fbugv7hbzbahj5qm3ztcno6by:
+  /eslint-plugin-prettier/4.2.1_uiswlpulcu4wppk3zxswnxg2xq:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -6148,7 +6148,7 @@ packages:
         optional: true
     dependencies:
       eslint: 7.32.0
-      eslint-config-prettier: 8.6.0_eslint@7.32.0
+      eslint-config-prettier: 8.7.0_eslint@7.32.0
       prettier: 2.8.4
       prettier-linter-helpers: 1.0.0
     dev: true
