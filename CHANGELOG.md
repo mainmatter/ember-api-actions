@@ -1,6 +1,12 @@
 # Changelog
 
+## v0.6.0 (2023-03-08)
 
+#### :rocket: Enhancement
+* [#153](https://github.com/mainmatter/ember-api-actions/pull/153) Pass adapterOptions to buildURL for adapterAction ([@mrloop](https://github.com/mrloop))
+
+#### Committers: 1
+- Ewan McDougall ([@mrloop](https://github.com/mrloop))
 
 ## v0.5.0 (2023-02-28)
 
