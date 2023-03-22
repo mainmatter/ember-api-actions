@@ -33,7 +33,7 @@ specifiers:
   eslint-plugin-prettier: 4.2.1
   eslint-plugin-qunit: 7.3.4
   loader.js: 4.7.0
-  msw: 1.1.1
+  msw: 1.2.0
   npm-run-all: 4.1.5
   prettier: 2.8.6
   qunit: 2.19.4
@@ -76,7 +76,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_hnrajw2yawwvbiiel7jxxkobi4
   eslint-plugin-qunit: 7.3.4_eslint@7.32.0
   loader.js: 4.7.0
-  msw: 1.1.1
+  msw: 1.2.0
   npm-run-all: 4.1.5
   prettier: 2.8.6
   qunit: 2.19.4
@@ -9474,8 +9474,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw/1.1.1:
-    resolution: {integrity: sha512-XVm+Mjod4qjJGwpSyj6ZXFkFkQMG8lzyWY/W0cWJAueG/jELTQEP8OJSsV9QTe6zHwtHoekeRjeGp/zBgDNZjQ==}
+  /msw/1.2.0:
+    resolution: {integrity: sha512-2nbGxmG8Zk/eCiWCAFtgz5kwPE5YnTlOcRBggFkykqkBSPQE+kvlHJElOzrTG21Tb0ZGXWgn0PI5kyANnOpgug==}
     engines: {node: '>=14'}
     hasBin: true
     requiresBuild: true
