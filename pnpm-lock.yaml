@@ -85,8 +85,8 @@ devDependencies:
     specifier: 8.8.0
     version: 8.8.0(eslint@7.32.0)
   eslint-plugin-ember:
-    specifier: 11.6.0
-    version: 11.6.0(eslint@7.32.0)
+    specifier: 11.7.0
+    version: 11.7.0(eslint@7.32.0)
   eslint-plugin-node:
     specifier: 11.1.0
     version: 11.1.0(eslint@7.32.0)
@@ -6114,8 +6114,8 @@ packages:
     resolution: {integrity: sha512-Uk/TVLt6Nf6Xoz7C1iYuZjOSdJxe5aaauGRke8JhKeJwD66Y61/pY2FjtLP04Ooq9PwV34bzrkKkU2UZ5FtDRA==}
     dev: true
 
-  /eslint-plugin-ember@11.6.0(eslint@7.32.0):
-    resolution: {integrity: sha512-M/M63t/Y5yr/yuWUbtUZ/tE5B5A8/+6LOR6fJlXpLZR4XMtN3KueYsuEIDGP6AInmq5tjDPmBXX0wV+FkjQmvA==}
+  /eslint-plugin-ember@11.7.0(eslint@7.32.0):
+    resolution: {integrity: sha512-LZvdGam1/R1suDwjFBcEmzQmd34aKqOD91X1JnJHymdiKUiHEeveW30O/ZTvM0CrTjuibZSh0lLLXH2+4/GdgA==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
       eslint: '>= 7'
