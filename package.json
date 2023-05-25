@@ -65,7 +65,7 @@
     "qunit": "2.19.4",
     "qunit-dom": "2.0.0",
     "release-it": "15.10.3",
-    "webpack": "5.84.0"
+    "webpack": "5.84.1"
   },
   "engines": {
     "node": "14.* || 16.* || >= 18"
