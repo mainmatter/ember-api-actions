@@ -71,6 +71,8 @@ jobs:
           - ember-data-4.4
           - ember-data-4.7
           - ember-data-4.8
+          - ember-data-4.11
+          - ember-data-4.12
           - embroider-safe
           - embroider-optimized
 
