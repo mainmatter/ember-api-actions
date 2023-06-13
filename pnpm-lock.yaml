@@ -83,8 +83,8 @@ devDependencies:
     specifier: 4.12.1
     version: 4.12.1(@glimmer/component@1.1.2)(webpack@5.84.1)
   ember-template-lint:
-    specifier: 5.10.0
-    version: 5.10.0
+    specifier: 5.10.1
+    version: 5.10.1
   ember-try:
     specifier: 2.0.0
     version: 2.0.0
@@ -5852,8 +5852,8 @@ packages:
       - supports-color
     dev: true
 
-  /ember-template-lint@5.10.0:
-    resolution: {integrity: sha512-LK+ZBXuqflI8KYXgzS5HcgkxSMAEOqilQVBMrwmWyfY7otDOL17mlPjMeB0OFUMXYKIq/qzz72HbM+J7WsBE6A==}
+  /ember-template-lint@5.10.1:
+    resolution: {integrity: sha512-WZZypF73Bmei7WQYGMcClARkno3Sdvv1piV3R7jrHEud9Yg589oiFUtwEsCJ28Zbjx7gkcXIt24cRZAqtNvdZQ==}
     engines: {node: ^14.18.0 || ^16.0.0 || >= 18.0.0}
     hasBin: true
     dependencies:
