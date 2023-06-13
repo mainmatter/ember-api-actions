@@ -10,6 +10,7 @@ module.exports = async function () {
         name: 'ember-data-3.28',
         npm: {
           devDependencies: {
+            'ember-source': '4.12.1',
             'ember-data': '3.28.12',
           },
         },
@@ -18,6 +19,7 @@ module.exports = async function () {
         name: 'ember-data-4.4',
         npm: {
           devDependencies: {
+            'ember-source': '4.12.1',
             'ember-data': '4.4.1',
           },
         },
@@ -26,6 +28,7 @@ module.exports = async function () {
         name: 'ember-data-4.7',
         npm: {
           devDependencies: {
+            'ember-source': '4.12.1',
             'ember-data': '4.7.3',
           },
         },
@@ -34,6 +37,7 @@ module.exports = async function () {
         name: 'ember-data-4.8',
         npm: {
           devDependencies: {
+            'ember-source': '4.12.1',
             'ember-data': '4.8.2',
           },
         },
