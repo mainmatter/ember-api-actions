@@ -17,8 +17,8 @@ devDependencies:
     specifier: 3.1.1
     version: 3.1.1
   '@ember/test-helpers':
-    specifier: 3.0.3
-    version: 3.0.3(ember-source@5.0.0)(webpack@5.87.0)
+    specifier: 3.1.0
+    version: 3.1.0(ember-source@5.0.0)(webpack@5.87.0)
   '@embroider/test-setup':
     specifier: 3.0.1
     version: 3.0.1
@@ -75,7 +75,7 @@ devDependencies:
     version: 7.0.0
   ember-qunit:
     specifier: 7.0.0
-    version: 7.0.0(@ember/test-helpers@3.0.3)(ember-source@5.0.0)(qunit@2.19.4)(webpack@5.87.0)
+    version: 7.0.0(@ember/test-helpers@3.1.0)(ember-source@5.0.0)(qunit@2.19.4)(webpack@5.87.0)
   ember-resolver:
     specifier: 10.1.0
     version: 10.1.0(@ember/string@3.1.1)(ember-source@5.0.0)
@@ -1938,8 +1938,8 @@ packages:
       - supports-color
     dev: true
 
-  /@ember/test-helpers@3.0.3(ember-source@5.0.0)(webpack@5.87.0):
-    resolution: {integrity: sha512-W8fEWritv36W216wmuusOlsUJs+iDFkOvHratI8tw466NV4deq9TVej1p5DtUFeDUUP/E14IxqrNNC3qaYszfQ==}
+  /@ember/test-helpers@3.1.0(ember-source@5.0.0)(webpack@5.87.0):
+    resolution: {integrity: sha512-7T4sKM/8oML7tBvBPIAlugtz8p+Vm0x0PcQsPW8sg83/tIQY8EUElhclMbYcAoYeij+KJ4HKGI+fCUBBfKAImg==}
     engines: {node: 16.* || >= 18}
     peerDependencies:
       ember-source: ^4.0.0 || ^5.0.0
@@ -5774,7 +5774,7 @@ packages:
       - supports-color
     dev: true
 
-  /ember-qunit@7.0.0(@ember/test-helpers@3.0.3)(ember-source@5.0.0)(qunit@2.19.4)(webpack@5.87.0):
+  /ember-qunit@7.0.0(@ember/test-helpers@3.1.0)(ember-source@5.0.0)(qunit@2.19.4)(webpack@5.87.0):
     resolution: {integrity: sha512-KhrndHYEXsHnXvmsGyJLJQ6VCudXaRs5dzPZBsdttZJIhsB6PmYAvq2Q+mh3GRDT/59T/sRDrB3FD3/lATS8aA==}
     engines: {node: 16.* || >= 18}
     peerDependencies:
@@ -5782,7 +5782,7 @@ packages:
       ember-source: '>=4.0.0'
       qunit: ^2.13.0
     dependencies:
-      '@ember/test-helpers': 3.0.3(ember-source@5.0.0)(webpack@5.87.0)
+      '@ember/test-helpers': 3.1.0(ember-source@5.0.0)(webpack@5.87.0)
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 3.0.2
       common-tags: 1.8.2
