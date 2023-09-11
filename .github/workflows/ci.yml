@@ -13,7 +13,7 @@ concurrency:
 
 env:
   # renovate: datasource=npm depName=pnpm
-  PNPM_VERSION: 8.7.4
+  PNPM_VERSION: 8.7.5
 
 jobs:
   test:
