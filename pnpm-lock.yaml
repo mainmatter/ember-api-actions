@@ -13,8 +13,8 @@ importers:
         version: 7.26.11
     devDependencies:
       '@babel/eslint-parser':
-        specifier: 7.24.1
-        version: 7.24.1(@babel/core@7.24.4)(eslint@9.1.1)
+        specifier: 7.24.5
+        version: 7.24.5(@babel/core@7.24.4)(eslint@9.1.1)
       '@ember/optional-features':
         specifier: 2.1.0
         version: 2.1.0
@@ -155,12 +155,12 @@ packages:
       '@babel/core': ^7.11.0
       eslint: ^7.5.0 || ^8.0.0
 
-  '@babel/eslint-parser@7.24.1':
-    resolution: {integrity: sha512-d5guuzMlPeDfZIbpQ8+g1NaCNuAGBBGNECh0HVqz1sjOeVLh2CEaifuOysCH18URW6R7pqXINvf5PaR/dC6jLQ==}
+  '@babel/eslint-parser@7.24.5':
+    resolution: {integrity: sha512-gsUcqS/fPlgAw1kOtpss7uhY6E9SFFANQ6EFX5GTvzUwaV0+sGaZWk6xq22MOdeT9wfxyokW3ceCUvOiRtZciQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': ^7.11.0
-      eslint: ^7.5.0 || ^8.0.0
+      eslint: ^7.5.0 || ^8.0.0 || ^9.0.0
 
   '@babel/generator@7.24.4':
     resolution: {integrity: sha512-Xd6+v6SnjWVx/nus+y0l1sxMOTOMBkyL4+BIdbALyatQnAe/SRVjANeDPSCYaX+i1iJmuGSKf3Z+E+V/va1Hvw==}
@@ -7168,7 +7168,7 @@ snapshots:
       eslint-visitor-keys: 2.1.0
       semver: 6.3.1
 
-  '@babel/eslint-parser@7.24.1(@babel/core@7.24.4)(eslint@9.1.1)':
+  '@babel/eslint-parser@7.24.5(@babel/core@7.24.4)(eslint@9.1.1)':
     dependencies:
       '@babel/core': 7.24.4
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
@@ -14212,7 +14212,7 @@ snapshots:
       got: 12.6.1
       registry-auth-token: 5.0.2
       registry-url: 6.0.1
-      semver: 7.5.1
+      semver: 7.6.0
 
   parent-module@1.0.1:
     dependencies:
@@ -14890,7 +14890,7 @@ snapshots:
 
   semver-diff@4.0.0:
     dependencies:
-      semver: 7.5.1
+      semver: 7.6.0
 
   semver@5.7.2: {}
 
@@ -15749,7 +15749,7 @@ snapshots:
       is-yarn-global: 0.4.1
       latest-version: 7.0.0
       pupa: 3.1.0
-      semver: 7.5.1
+      semver: 7.6.0
       semver-diff: 4.0.0
       xdg-basedir: 5.1.0
 
