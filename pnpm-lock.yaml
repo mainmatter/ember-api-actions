@@ -13,8 +13,8 @@ importers:
         version: 7.26.11
     devDependencies:
       '@babel/eslint-parser':
-        specifier: 7.24.5
-        version: 7.24.5(@babel/core@7.24.5)(eslint@9.3.0)
+        specifier: 7.24.6
+        version: 7.24.6(@babel/core@7.24.5)(eslint@9.3.0)
       '@ember/optional-features':
         specifier: 2.1.0
         version: 2.1.0
@@ -155,8 +155,8 @@ packages:
       '@babel/core': ^7.11.0
       eslint: ^7.5.0 || ^8.0.0
 
-  '@babel/eslint-parser@7.24.5':
-    resolution: {integrity: sha512-gsUcqS/fPlgAw1kOtpss7uhY6E9SFFANQ6EFX5GTvzUwaV0+sGaZWk6xq22MOdeT9wfxyokW3ceCUvOiRtZciQ==}
+  '@babel/eslint-parser@7.24.6':
+    resolution: {integrity: sha512-Q1BfQX42zXHx732PLW0w4+Y3wJjoZKEMaatFUEAmQ7Z+jCXxinzeqX9bvv2Q8xNPes/H6F0I23oGkcgjaItmLw==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': ^7.11.0
@@ -4150,6 +4150,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.3:
     resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
@@ -7136,7 +7137,7 @@ snapshots:
       eslint-visitor-keys: 2.1.0
       semver: 6.3.1
 
-  '@babel/eslint-parser@7.24.5(@babel/core@7.24.5)(eslint@9.3.0)':
+  '@babel/eslint-parser@7.24.6(@babel/core@7.24.5)(eslint@9.3.0)':
     dependencies:
       '@babel/core': 7.24.5
       '@nicolo-ribaudo/eslint-scope-5-internals': 5.1.1-v1
@@ -14809,7 +14810,7 @@ snapshots:
 
   semver-diff@4.0.0:
     dependencies:
-      semver: 7.5.1
+      semver: 7.6.2
 
   semver@5.7.2: {}
 
@@ -15662,7 +15663,7 @@ snapshots:
       is-yarn-global: 0.4.1
       latest-version: 7.0.0
       pupa: 3.1.0
-      semver: 7.5.1
+      semver: 7.6.2
       semver-diff: 4.0.0
       xdg-basedir: 5.1.0
 
