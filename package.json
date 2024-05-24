@@ -35,7 +35,7 @@
     "@glimmer/component": "1.1.2",
     "@glimmer/tracking": "1.1.2",
     "@release-it-plugins/lerna-changelog": "5.0.0",
-    "@babel/eslint-parser": "7.24.5",
+    "@babel/eslint-parser": "7.24.6",
     "broccoli-asset-rev": "3.0.0",
     "concurrently": "8.2.2",
     "ember-auto-import": "2.7.2",
