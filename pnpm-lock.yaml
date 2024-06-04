@@ -79,8 +79,8 @@ importers:
         specifier: 8.0.2
         version: 8.0.2(@ember/test-helpers@3.3.0(ember-source@5.9.0(@babel/core@7.24.6)(@glimmer/component@1.1.2(@babel/core@7.24.6))(rsvp@4.8.5)(webpack@5.91.0))(webpack@5.91.0))(ember-source@5.9.0(@babel/core@7.24.6)(@glimmer/component@1.1.2(@babel/core@7.24.6))(rsvp@4.8.5)(webpack@5.91.0))(qunit@2.21.0)
       ember-resolver:
-        specifier: 10.1.1
-        version: 10.1.1(@ember/string@3.1.1)(ember-source@5.9.0(@babel/core@7.24.6)(@glimmer/component@1.1.2(@babel/core@7.24.6))(rsvp@4.8.5)(webpack@5.91.0))
+        specifier: 11.0.1
+        version: 11.0.1(ember-source@5.9.0(@babel/core@7.24.6)(@glimmer/component@1.1.2(@babel/core@7.24.6))(rsvp@4.8.5)(webpack@5.91.0))
       ember-source:
         specifier: 5.9.0
         version: 5.9.0(@babel/core@7.24.6)(@glimmer/component@1.1.2(@babel/core@7.24.6))(rsvp@4.8.5)(webpack@5.91.0)
@@ -3150,11 +3150,10 @@ packages:
       ember-source: '>=4.0.0'
       qunit: ^2.13.0
 
-  ember-resolver@10.1.1:
-    resolution: {integrity: sha512-y1zzn6C4YGJui+tJzcCKlsf1oSOSVAkRrvmg8OwqVIKnALKKb9ihx2qLCslHg8x0wJvJgMtDMXgrczvQrZW0Lw==}
+  ember-resolver@11.0.1:
+    resolution: {integrity: sha512-ucBk3oM+PR+AfYoSUXeQh8cDQS1sSiEKp4Pcgbew5cFMSqPxJfqd1zyZsfQKNTuyubeGmWxBOyMVSTvX2LeCyg==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
-      '@ember/string': ^3.0.1
       ember-source: ^4.8.3 || >= 5.0.0
     peerDependenciesMeta:
       ember-source:
@@ -11236,9 +11235,8 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  ember-resolver@10.1.1(@ember/string@3.1.1)(ember-source@5.9.0(@babel/core@7.24.6)(@glimmer/component@1.1.2(@babel/core@7.24.6))(rsvp@4.8.5)(webpack@5.91.0)):
+  ember-resolver@11.0.1(ember-source@5.9.0(@babel/core@7.24.6)(@glimmer/component@1.1.2(@babel/core@7.24.6))(rsvp@4.8.5)(webpack@5.91.0)):
     dependencies:
-      '@ember/string': 3.1.1
       ember-cli-babel: 7.26.11
     optionalDependencies:
       ember-source: 5.9.0(@babel/core@7.24.6)(@glimmer/component@1.1.2(@babel/core@7.24.6))(rsvp@4.8.5)(webpack@5.91.0)
