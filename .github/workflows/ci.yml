@@ -28,7 +28,7 @@ jobs:
         with:
           version: ${{ env.PNPM_VERSION }}
 
-      - uses: actions/setup-node@v3.8.2
+      - uses: actions/setup-node@v4.2.0
         with:
           node-version: 16.x
           cache: pnpm
@@ -49,7 +49,7 @@ jobs:
         with:
           version: ${{ env.PNPM_VERSION }}
 
-      - uses: actions/setup-node@v3.8.2
+      - uses: actions/setup-node@v4.2.0
         with:
           node-version: 16.x
           cache: pnpm
@@ -83,7 +83,7 @@ jobs:
         with:
           version: ${{ env.PNPM_VERSION }}
 
-      - uses: actions/setup-node@v3.8.2
+      - uses: actions/setup-node@v4.2.0
         with:
           node-version: 16.x
           cache: pnpm
