@@ -52,7 +52,7 @@
     "ember-qunit": "9.0.2",
     "ember-resolver": "10.1.1",
     "ember-source": "5.12.0",
-    "ember-template-lint": "7.0.2",
+    "ember-template-lint": "7.0.3",
     "ember-try": "2.0.0",
     "eslint": "9.23.0",
     "eslint-config-prettier": "10.1.1",
