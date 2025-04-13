@@ -85,8 +85,8 @@ importers:
         specifier: 5.12.0
         version: 5.12.0(@glimmer/component@1.1.2(@babel/core@7.26.10))(rsvp@4.8.5)(webpack@5.99.5)
       ember-template-lint:
-        specifier: 7.0.6
-        version: 7.0.6(@babel/core@7.26.10)
+        specifier: 7.0.7
+        version: 7.0.7(@babel/core@7.26.10)
       ember-try:
         specifier: 2.0.0
         version: 2.0.0(encoding@0.1.13)
@@ -2922,8 +2922,8 @@ packages:
     peerDependencies:
       '@glimmer/component': ^1.1.2
 
-  ember-template-lint@7.0.6:
-    resolution: {integrity: sha512-4CXxZU+/12RaAS9z+b5kQne12Rk2giEMRCwiZi5711uG3QpLS6PmtmFJZIGlzpsdHQLytWNVvwuVeDx+s1Rtrw==}
+  ember-template-lint@7.0.7:
+    resolution: {integrity: sha512-CMdoLXMiAn5YsnE27EnrfkM5vd+L1hOl1eMY1QYBrMujQzN4PtErkOB3WIotAirBioD3mzSumKEKjdqPvCjnxQ==}
     engines: {node: ^18.18.0 || >= 20.9.0}
     hasBin: true
 
@@ -10532,7 +10532,7 @@ snapshots:
       - supports-color
       - webpack
 
-  ember-template-lint@7.0.6(@babel/core@7.26.10):
+  ember-template-lint@7.0.7(@babel/core@7.26.10):
     dependencies:
       '@babel/generator': 7.27.0
       '@babel/parser': 7.27.0
