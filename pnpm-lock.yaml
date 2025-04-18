@@ -79,8 +79,8 @@ importers:
         specifier: 9.0.2
         version: 9.0.2(@ember/test-helpers@3.3.1(@babel/core@7.26.10)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.26.10))(rsvp@4.8.5)(webpack@5.99.6))(webpack@5.99.6))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.26.10))(rsvp@4.8.5)(webpack@5.99.6))(qunit@2.24.1)
       ember-resolver:
-        specifier: 10.1.1
-        version: 10.1.1(@ember/string@3.1.1)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.26.10))(rsvp@4.8.5)(webpack@5.99.6))
+        specifier: 13.1.0
+        version: 13.1.0(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.26.10))(rsvp@4.8.5)(webpack@5.99.6))
       ember-source:
         specifier: 5.12.0
         version: 5.12.0(@glimmer/component@1.1.2(@babel/core@7.26.10))(rsvp@4.8.5)(webpack@5.99.6)
@@ -2899,12 +2899,11 @@ packages:
       ember-source: '>=4.0.0'
       qunit: ^2.13.0
 
-  ember-resolver@10.1.1:
-    resolution: {integrity: sha512-y1zzn6C4YGJui+tJzcCKlsf1oSOSVAkRrvmg8OwqVIKnALKKb9ihx2qLCslHg8x0wJvJgMtDMXgrczvQrZW0Lw==}
+  ember-resolver@13.1.0:
+    resolution: {integrity: sha512-t/PjXLCl5tM9EQXGIFoBgHiA41HkLJpfo17Nud5Cy9eyUPGcnsMjWJqQ+O5QHA0E63Sp+zTn4y/RS5Tu2v2ydg==}
     engines: {node: 14.* || 16.* || >= 18}
     peerDependencies:
-      '@ember/string': ^3.0.1
-      ember-source: ^4.8.3 || >= 5.0.0
+      ember-source: ^4.12.0 || >= 5.0.0
     peerDependenciesMeta:
       ember-source:
         optional: true
@@ -10480,9 +10479,8 @@ snapshots:
       - '@glint/template'
       - supports-color
 
-  ember-resolver@10.1.1(@ember/string@3.1.1)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.26.10))(rsvp@4.8.5)(webpack@5.99.6)):
+  ember-resolver@13.1.0(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.26.10))(rsvp@4.8.5)(webpack@5.99.6)):
     dependencies:
-      '@ember/string': 3.1.1
       ember-cli-babel: 7.26.11
     optionalDependencies:
       ember-source: 5.12.0(@glimmer/component@1.1.2(@babel/core@7.26.10))(rsvp@4.8.5)(webpack@5.99.6)
