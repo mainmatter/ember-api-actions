@@ -799,8 +799,8 @@ packages:
     resolution: {integrity: sha512-gcJuHiXgnrzaU8NyU+2bMbtS6PNOr5v5B8OXBqaBvTCsMpXLvKo8OBOQFCoUN0rPX2J6VaFqrbi/371sMvzZug==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/macros@1.18.1':
-    resolution: {integrity: sha512-hOQyzFBT1Rd6RdY4AbRSSGSeXyUzUrU9o6GWGD/kxg7cggKQax4R486KE10ZVSPRNqhRiNUcqe2VWc/+e8Z0MQ==}
+  '@embroider/macros@1.18.2':
+    resolution: {integrity: sha512-mkgk0yjcYgujZQv9IGLD3yPb4a+d6EDKm22GK6TUyBCF8veTeg6HBXwHfu6K2DCnG0LEwnb2MJ0WCFGmTiatPw==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
       '@glint/template': ^1.0.0
@@ -812,8 +812,8 @@ packages:
     resolution: {integrity: sha512-8PJBsa37GD++SAfHf8rcJzlwDwuAQCBo0fr+eGxg9l8XhBXsTnE/7706dM4OqWew9XNqRXn39wfIGHZoBpjNMw==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  '@embroider/shared-internals@3.0.0':
-    resolution: {integrity: sha512-5J5ipUMCAinQS38WW7wedruq5Z4VnHvNo+ZgOduw0PtI9w0CQWx7/HE+98PBDW8jclikeF+aHwF317vc1hwuzg==}
+  '@embroider/shared-internals@3.0.1':
+    resolution: {integrity: sha512-d7RQwDwqqHo7YvjE9t1rtIrCCYtbSoO0uRq2ikVhRh4hGS5OojZNu2ZtS0Wqrg+V72CRtMFr/hibTvHNsRM2Lg==}
     engines: {node: 12.* || 14.* || >= 16}
 
   '@embroider/test-setup@3.0.3':
@@ -1291,8 +1291,8 @@ packages:
   '@types/unist@2.0.11':
     resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
 
-  '@typescript-eslint/tsconfig-utils@8.44.0':
-    resolution: {integrity: sha512-x5Y0+AuEPqAInc6yd0n5DAcvtoQ/vyaGwuX5HE9n6qAefk1GaedqrLQF8kQGylLUb9pnZyLf+iEiL9fr8APDtQ==}
+  '@typescript-eslint/tsconfig-utils@8.44.1':
+    resolution: {integrity: sha512-B5OyACouEjuIvof3o86lRMvyDsFwZm+4fBOqFHccIctYgBjqR3qT39FBYGN87khcgf0ExpdCBeGKpKRhSFTjKQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       typescript: '>=4.8.4 <6.0.0'
@@ -1720,8 +1720,8 @@ packages:
     resolution: {integrity: sha512-5T6P4xPgpp0YDFvSWwEZ4NoE3aM4QBQXDzmVbraCkFj8zHM+mba8SyqB5DbZWyR7mYHo6Y7BdQo3MoA4m0TeQg==}
     engines: {node: '>=0.10.0'}
 
-  baseline-browser-mapping@2.8.6:
-    resolution: {integrity: sha512-wrH5NNqren/QMtKUEEJf7z86YjfqW/2uw3IL3/xpqZUC95SSVIFXYQeeGjL6FT/X68IROu6RMehZQS5foy2BXw==}
+  baseline-browser-mapping@2.8.9:
+    resolution: {integrity: sha512-hY/u2lxLrbecMEWSB0IpGzGyDyeoMFQhCvZd2jGFSE5I17Fh01sYUBPCJtkWERw7zrac9+cIghxm/ytJa2X8iA==}
     hasBin: true
 
   basic-auth@2.0.1:
@@ -2012,8 +2012,8 @@ packages:
     resolution: {integrity: sha512-RbsNrFyhwkx+6psk/0fK/Q9orOUr9VMxohGd8vTa4djf4TGLfblBgUfqZChrZuW0Q+mz2eBPFLusw9Jfukzmhg==}
     hasBin: true
 
-  caniuse-lite@1.0.30001743:
-    resolution: {integrity: sha512-e6Ojr7RV14Un7dz6ASD0aZDmQPT/A+eZU+nuTNfjqmRrmkmQlnTNWH0SKmqagx9PeW87UVqapSurtAXifmtdmw==}
+  caniuse-lite@1.0.30001745:
+    resolution: {integrity: sha512-ywt6i8FzvdgrrrGbr1jZVObnVv6adj+0if2/omv9cmR2oiZs30zL4DIyaptKcbOrBdOIc74QTMoJvSE2QHh5UQ==}
 
   capture-exit@2.0.0:
     resolution: {integrity: sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g==}
@@ -2693,8 +2693,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.222:
-    resolution: {integrity: sha512-gA7psSwSwQRE60CEoLz6JBCQPIxNeuzB2nL8vE03GK/OHxlvykbLyeiumQy1iH5C2f3YbRAZpGCMT12a/9ih9w==}
+  electron-to-chromium@1.5.227:
+    resolution: {integrity: sha512-ITxuoPfJu3lsNWUi2lBM2PaBPYgH3uqmxut5vmBxgYvyI4AlJ6P3Cai1O76mOrkJCBzq0IxWg/NtqOrpu/0gKA==}
 
   ember-auto-import@2.10.1:
     resolution: {integrity: sha512-5K4lYSEBch3DKQn1VElFHDHcHTvhTJnB6aebf24VyIobLL+OMWORcCK1fiwyfPiVABztyuLXH2GiXDweNUtntA==}
@@ -4194,11 +4194,6 @@ packages:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
 
-  jsesc@3.0.2:
-    resolution: {integrity: sha512-xKqzzWXDttJuOcawBt4KnKHHIf5oQ/Cxax+0PWFG+DFDgHNAdi+TXECADI+RYiFUMmx8792xsMbbgXj4CwnP4g==}
-    engines: {node: '>=6'}
-    hasBin: true
-
   jsesc@3.1.0:
     resolution: {integrity: sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==}
     engines: {node: '>=6'}
@@ -5438,8 +5433,8 @@ packages:
     resolution: {integrity: sha512-dYqgNSZbDwkaJ2ceRd9ojCGjBq+mOm9LmtXnAnEGyHhN/5R7iDW2TRw3h+o/jCFxus3P2LfWIIiwowAjANm7IA==}
     engines: {node: '>= 0.4'}
 
-  regexpu-core@6.3.1:
-    resolution: {integrity: sha512-DzcswPr252wEr7Qz8AyAVbfyBDKLoYp6eRA1We2Fa9qirRFSdtkP5sHr3yglDKy2BbA0fd2T+j/CUSKes3FeVQ==}
+  regexpu-core@6.4.0:
+    resolution: {integrity: sha512-0ghuzq67LI9bLXpOX/ISfve/Mq33a4aFRzoQYhnnok1JOFpmE/A2TBGkNVenOGEeSBCjIiWcc6MVOG5HEQv0sA==}
     engines: {node: '>=4'}
 
   registry-auth-token@4.2.2:
@@ -5461,8 +5456,8 @@ packages:
   regjsgen@0.8.0:
     resolution: {integrity: sha512-RvwtGe3d7LvWiDQXeQw8p5asZUmfU1G/l6WbUXeHta7Y2PEIvBTwH6E2EfmYUK8pxcxEdEmaomqyp0vZZ7C+3Q==}
 
-  regjsparser@0.12.0:
-    resolution: {integrity: sha512-cnE+y8bz4NhMjISKbgeVJtqNbtf5QpjZP+Bslo+UqkIt9QPnX9q095eiRRASJG1/tz6dlNr6Z5NsBiWYokp6EQ==}
+  regjsparser@0.13.0:
+    resolution: {integrity: sha512-NZQZdC5wOE/H3UT28fVGL+ikOZcEzfMGk/c3iN9UGxzWHMa1op7274oyiUVrAG4B2EuFhus8SvkaYnhvW92p9Q==}
     hasBin: true
 
   release-it@15.11.0:
@@ -6700,7 +6695,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.4
       '@babel/helper-annotate-as-pure': 7.27.3
-      regexpu-core: 6.3.1
+      regexpu-core: 6.4.0
       semver: 6.3.1
 
   '@babel/helper-define-polyfill-provider@0.6.5(@babel/core@7.28.4)':
@@ -7397,7 +7392,7 @@ snapshots:
   '@ember-data/adapter@5.7.0':
     dependencies:
       '@ember/edition-utils': 1.2.0
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
       '@warp-drive/legacy': 5.7.0(@warp-drive/core@5.7.0)(@warp-drive/utilities@5.7.0(@warp-drive/core@5.7.0))
       '@warp-drive/utilities': 5.7.0(@warp-drive/core@5.7.0)
@@ -7414,7 +7409,7 @@ snapshots:
       '@ember-data/request-utils': 5.7.0
       '@ember-data/store': 5.7.0(@ember-data/tracking@5.7.0(@ember/test-waiters@3.1.0))(@ember/test-waiters@3.1.0)
       '@ember/edition-utils': 1.2.0
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
       '@warp-drive/core-types': 5.7.0
     transitivePeerDependencies:
@@ -7423,7 +7418,7 @@ snapshots:
 
   '@ember-data/graph@5.7.0':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
     transitivePeerDependencies:
       - '@glint/template'
@@ -7431,7 +7426,7 @@ snapshots:
 
   '@ember-data/json-api@5.7.0':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
       '@warp-drive/json-api': 5.7.0(@warp-drive/core@5.7.0)
       '@warp-drive/utilities': 5.7.0(@warp-drive/core@5.7.0)
@@ -7441,7 +7436,7 @@ snapshots:
 
   '@ember-data/legacy-compat@5.7.0':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
       '@warp-drive/legacy': 5.7.0(@warp-drive/core@5.7.0)(@warp-drive/utilities@5.7.0(@warp-drive/core@5.7.0))
       '@warp-drive/utilities': 5.7.0(@warp-drive/core@5.7.0)
@@ -7452,7 +7447,7 @@ snapshots:
   '@ember-data/model@5.7.0':
     dependencies:
       '@ember/edition-utils': 1.2.0
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
       '@warp-drive/legacy': 5.7.0(@warp-drive/core@5.7.0)(@warp-drive/utilities@5.7.0(@warp-drive/core@5.7.0))
       '@warp-drive/utilities': 5.7.0(@warp-drive/core@5.7.0)
@@ -7465,7 +7460,7 @@ snapshots:
 
   '@ember-data/request-utils@5.7.0':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
       '@warp-drive/utilities': 5.7.0(@warp-drive/core@5.7.0)
     transitivePeerDependencies:
@@ -7474,7 +7469,7 @@ snapshots:
 
   '@ember-data/request@5.7.0':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
     transitivePeerDependencies:
       - '@glint/template'
@@ -7485,7 +7480,7 @@ snapshots:
   '@ember-data/serializer@5.7.0':
     dependencies:
       '@ember/edition-utils': 1.2.0
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
       '@warp-drive/legacy': 5.7.0(@warp-drive/core@5.7.0)(@warp-drive/utilities@5.7.0(@warp-drive/core@5.7.0))
       '@warp-drive/utilities': 5.7.0(@warp-drive/core@5.7.0)
@@ -7498,7 +7493,7 @@ snapshots:
 
   '@ember-data/store@5.7.0(@ember-data/tracking@5.7.0(@ember/test-waiters@3.1.0))(@ember/test-waiters@3.1.0)':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
     optionalDependencies:
       '@ember-data/tracking': 5.7.0(@ember/test-waiters@3.1.0)
@@ -7510,7 +7505,7 @@ snapshots:
   '@ember-data/tracking@5.7.0(@ember/test-waiters@3.1.0)':
     dependencies:
       '@ember/test-waiters': 3.1.0
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
     transitivePeerDependencies:
       - '@glint/template'
@@ -7538,7 +7533,7 @@ snapshots:
   '@ember/test-helpers@3.3.1(@babel/core@7.28.4)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.28.4))(rsvp@4.8.5)(webpack@5.101.3))(webpack@5.101.3)':
     dependencies:
       '@ember/test-waiters': 3.1.0
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@simple-dom/interface': 1.4.0
       broccoli-debug: 0.6.5
       broccoli-funnel: 3.0.8
@@ -7564,16 +7559,16 @@ snapshots:
 
   '@embroider/addon-shim@1.10.0':
     dependencies:
-      '@embroider/shared-internals': 3.0.0
+      '@embroider/shared-internals': 3.0.1
       broccoli-funnel: 3.0.8
       common-ancestor-path: 1.0.1
       semver: 7.7.2
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/macros@1.18.1':
+  '@embroider/macros@1.18.2':
     dependencies:
-      '@embroider/shared-internals': 3.0.0
+      '@embroider/shared-internals': 3.0.1
       assert-never: 1.4.0
       babel-import-util: 3.0.1
       ember-cli-babel: 7.26.11
@@ -7601,7 +7596,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@embroider/shared-internals@3.0.0':
+  '@embroider/shared-internals@3.0.1':
     dependencies:
       babel-import-util: 3.0.1
       debug: 4.4.3
@@ -8205,7 +8200,7 @@ snapshots:
 
   '@types/minimatch@6.0.0':
     dependencies:
-      minimatch: 8.0.4
+      minimatch: 7.4.6
 
   '@types/ms@2.1.0': {}
 
@@ -8245,14 +8240,14 @@ snapshots:
 
   '@types/unist@2.0.11': {}
 
-  '@typescript-eslint/tsconfig-utils@8.44.0(typescript@5.9.2)':
+  '@typescript-eslint/tsconfig-utils@8.44.1(typescript@5.9.2)':
     dependencies:
       typescript: 5.9.2
 
   '@warp-drive/build-config@5.7.0':
     dependencies:
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       babel-import-util: 2.1.1
       semver: 7.7.2
     transitivePeerDependencies:
@@ -8261,7 +8256,7 @@ snapshots:
 
   '@warp-drive/core-types@5.7.0':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
     transitivePeerDependencies:
       - '@glint/template'
@@ -8269,7 +8264,7 @@ snapshots:
 
   '@warp-drive/core@5.7.0':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/build-config': 5.7.0
     transitivePeerDependencies:
       - '@glint/template'
@@ -8278,7 +8273,7 @@ snapshots:
   '@warp-drive/ember@5.7.0(@ember/test-waiters@3.1.0)':
     dependencies:
       '@ember/test-waiters': 3.1.0
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
     transitivePeerDependencies:
       - '@glint/template'
@@ -8286,7 +8281,7 @@ snapshots:
 
   '@warp-drive/json-api@5.7.0(@warp-drive/core@5.7.0)':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
       fuse.js: 7.1.0
       json-to-ast: 2.1.0
@@ -8296,7 +8291,7 @@ snapshots:
 
   '@warp-drive/legacy@5.7.0(@warp-drive/core@5.7.0)(@warp-drive/utilities@5.7.0(@warp-drive/core@5.7.0))':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
       '@warp-drive/utilities': 5.7.0(@warp-drive/core@5.7.0)
     transitivePeerDependencies:
@@ -8305,7 +8300,7 @@ snapshots:
 
   '@warp-drive/utilities@5.7.0(@warp-drive/core@5.7.0)':
     dependencies:
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
     transitivePeerDependencies:
       - '@glint/template'
@@ -8741,7 +8736,7 @@ snapshots:
       mixin-deep: 1.3.2
       pascalcase: 0.1.1
 
-  baseline-browser-mapping@2.8.6: {}
+  baseline-browser-mapping@2.8.9: {}
 
   basic-auth@2.0.1:
     dependencies:
@@ -9237,9 +9232,9 @@ snapshots:
 
   browserslist@4.26.2:
     dependencies:
-      baseline-browser-mapping: 2.8.6
-      caniuse-lite: 1.0.30001743
-      electron-to-chromium: 1.5.222
+      baseline-browser-mapping: 2.8.9
+      caniuse-lite: 1.0.30001745
+      electron-to-chromium: 1.5.227
       node-releases: 2.0.21
       update-browserslist-db: 1.1.3(browserslist@4.26.2)
 
@@ -9353,7 +9348,7 @@ snapshots:
     dependencies:
       tmp: 0.0.28
 
-  caniuse-lite@1.0.30001743: {}
+  caniuse-lite@1.0.30001745: {}
 
   capture-exit@2.0.0:
     dependencies:
@@ -9859,7 +9854,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.222: {}
+  electron-to-chromium@1.5.227: {}
 
   ember-auto-import@2.10.1(webpack@5.101.3):
     dependencies:
@@ -9869,7 +9864,7 @@ snapshots:
       '@babel/plugin-proposal-private-methods': 7.18.6(@babel/core@7.28.4)
       '@babel/plugin-transform-class-static-block': 7.28.3(@babel/core@7.28.4)
       '@babel/preset-env': 7.28.3(@babel/core@7.28.4)
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@embroider/shared-internals': 2.9.1
       babel-loader: 8.4.1(@babel/core@7.28.4)(webpack@5.101.3)
       babel-plugin-ember-modules-api-polyfill: 3.5.0
@@ -10279,7 +10274,7 @@ snapshots:
       '@ember-data/tracking': 5.7.0(@ember/test-waiters@3.1.0)
       '@ember/edition-utils': 1.2.0
       '@ember/test-waiters': 3.1.0
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       '@warp-drive/core': 5.7.0
       '@warp-drive/core-types': 5.7.0
       '@warp-drive/ember': 5.7.0(@ember/test-waiters@3.1.0)
@@ -10302,7 +10297,7 @@ snapshots:
       '@babel/core': 7.28.4
       '@babel/eslint-parser': 7.28.4(@babel/core@7.28.4)(eslint@9.36.0)
       '@glimmer/syntax': 0.95.0
-      '@typescript-eslint/tsconfig-utils': 8.44.0(typescript@5.9.2)
+      '@typescript-eslint/tsconfig-utils': 8.44.1(typescript@5.9.2)
       content-tag: 2.0.3
       eslint-scope: 7.2.2
       html-tags: 3.3.1
@@ -10330,7 +10325,7 @@ snapshots:
     dependencies:
       '@ember/test-helpers': 3.3.1(@babel/core@7.28.4)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.28.4))(rsvp@4.8.5)(webpack@5.101.3))(webpack@5.101.3)
       '@embroider/addon-shim': 1.10.0
-      '@embroider/macros': 1.18.1
+      '@embroider/macros': 1.18.2
       qunit: 2.24.1
       qunit-theme-ember: 1.0.0
     transitivePeerDependencies:
@@ -12098,8 +12093,6 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  jsesc@3.0.2: {}
-
   jsesc@3.1.0: {}
 
   json-buffer@3.0.0: {}
@@ -13115,7 +13108,7 @@ snapshots:
       got: 12.6.1
       registry-auth-token: 5.1.0
       registry-url: 6.0.1
-      semver: 7.7.2
+      semver: 7.5.1
 
   parent-module@1.0.1:
     dependencies:
@@ -13457,12 +13450,12 @@ snapshots:
       gopd: 1.2.0
       set-function-name: 2.0.2
 
-  regexpu-core@6.3.1:
+  regexpu-core@6.4.0:
     dependencies:
       regenerate: 1.4.2
       regenerate-unicode-properties: 10.2.2
       regjsgen: 0.8.0
-      regjsparser: 0.12.0
+      regjsparser: 0.13.0
       unicode-match-property-ecmascript: 2.0.0
       unicode-match-property-value-ecmascript: 2.2.1
 
@@ -13484,9 +13477,9 @@ snapshots:
 
   regjsgen@0.8.0: {}
 
-  regjsparser@0.12.0:
+  regjsparser@0.13.0:
     dependencies:
-      jsesc: 3.0.2
+      jsesc: 3.1.0
 
   release-it@15.11.0(encoding@0.1.13):
     dependencies:
@@ -13756,7 +13749,7 @@ snapshots:
 
   semver-diff@4.0.0:
     dependencies:
-      semver: 7.7.2
+      semver: 7.5.1
 
   semver@5.7.2: {}
 
@@ -14598,7 +14591,7 @@ snapshots:
       is-yarn-global: 0.4.1
       latest-version: 7.0.0
       pupa: 3.3.0
-      semver: 7.7.2
+      semver: 7.5.1
       semver-diff: 4.0.0
       xdg-basedir: 5.1.0
 
