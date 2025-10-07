@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       ember-cli-babel:
-        specifier: ^7.26.11
-        version: 7.26.11
+        specifier: ^8.0.0
+        version: 8.2.0(@babel/core@7.28.4)
     devDependencies:
       '@babel/eslint-parser':
         specifier: 7.28.4
@@ -8185,7 +8185,7 @@ snapshots:
 
   '@types/glob@9.0.0':
     dependencies:
-      glob: 8.1.0
+      glob: 9.3.5
 
   '@types/http-cache-semantics@4.0.4': {}
 
