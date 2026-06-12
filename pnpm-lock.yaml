@@ -76,8 +76,8 @@ importers:
         specifier: 7.0.0
         version: 7.0.0
       ember-qunit:
-        specifier: 9.0.4
-        version: 9.0.4(@ember/test-helpers@3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(qunit@2.26.0)
+        specifier: 9.1.0
+        version: 9.1.0(@ember/test-helpers@3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(qunit@2.26.0)
       ember-resolver:
         specifier: 10.1.1
         version: 10.1.1(@ember/string@3.1.1)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.107.2(postcss@8.5.15)))
@@ -3020,8 +3020,8 @@ packages:
     resolution: {integrity: sha512-oq6+HYbeVD/BnxIO5AkP4gWlsatdgW2HFO10F8+XQiJZrwa7cC7Wm54JNGqQkavkDQTgNSiy1Fe2NILJ14MmAg==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  ember-qunit@9.0.4:
-    resolution: {integrity: sha512-rv6gKvrdXdPBTdSZC5co82eIcDWWVR7RjafU/c+5TTz290oXhIHPoVuZbcO2F5RiAqkTW0jKzwkCP8y+2tCjFw==}
+  ember-qunit@9.1.0:
+    resolution: {integrity: sha512-dE32lSODyv4em0ACBS8PDzrAIPKR75hhSpn/au0qFBlzbdmNA/VVsgv2aoFAVRdlQ0zYJ8EiNPFqsBFciIeXVA==}
     peerDependencies:
       '@ember/test-helpers': '>=3.0.3'
       qunit: ^2.13.0
@@ -10836,15 +10836,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-qunit@9.0.4(@ember/test-helpers@3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(qunit@2.26.0):
+  ember-qunit@9.1.0(@ember/test-helpers@3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15)))(qunit@2.26.0):
     dependencies:
       '@ember/test-helpers': 3.3.1(@babel/core@7.29.7)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.107.2(postcss@8.5.15)))(webpack@5.107.2(postcss@8.5.15))
       '@embroider/addon-shim': 1.10.3
-      '@embroider/macros': 1.20.4
       qunit: 2.26.0
       qunit-theme-ember: 1.0.0
     transitivePeerDependencies:
-      - '@glint/template'
       - supports-color
 
   ember-resolver@10.1.1(@ember/string@3.1.1)(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7))(rsvp@4.8.5)(webpack@5.107.2(postcss@8.5.15))):
