@@ -65,7 +65,7 @@
     "prettier": "3.9.6",
     "qunit": "2.26.0",
     "qunit-dom": "3.6.0",
-    "release-it": "15.11.0",
+    "release-it": "21.0.1",
     "webpack": "5.109.2"
   },
   "engines": {
