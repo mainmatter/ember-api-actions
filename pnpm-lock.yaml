@@ -85,8 +85,8 @@ importers:
         specifier: 5.12.0
         version: 5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(rsvp@4.8.5)(supports-color@8.1.1)(webpack@5.111.1(postcss@8.5.28)(uglify-js@3.19.3))
       ember-template-lint:
-        specifier: 7.9.3
-        version: 7.9.3
+        specifier: 7.9.4
+        version: 7.9.4
       ember-try:
         specifier: 2.0.0
         version: 2.0.0(encoding@0.1.13)(supports-color@8.1.1)
@@ -3072,8 +3072,8 @@ packages:
     peerDependencies:
       '@glimmer/component': ^1.1.2
 
-  ember-template-lint@7.9.3:
-    resolution: {integrity: sha512-iqC4rv/oVlXViGuf7hlOA/bC550ZqacZKAc8WvQV0ueeCtIYPkYYK+Tc7FwpM8qGx3jiwu/ZsTuNfPInI5pL7Q==}
+  ember-template-lint@7.9.4:
+    resolution: {integrity: sha512-yj/LIvtBv9zL7RJ8Fz+RURxZeYa1d+rCTnWSAjUFho74ywq55uht71+Nu8Svr5SL4eQXCdXmS7hWl+LCVPJvqg==}
     engines: {node: ^18.18.0 || >= 20.9.0}
     hasBin: true
 
@@ -11026,7 +11026,7 @@ snapshots:
       - supports-color
       - webpack
 
-  ember-template-lint@7.9.3:
+  ember-template-lint@7.9.4:
     dependencies:
       '@lint-todo/utils': 13.1.1
       content-tag: 3.1.3
