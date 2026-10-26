@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       ember-cli-babel:
-        specifier: ^7.26.11
-        version: 7.26.11(supports-color@8.1.1)
+        specifier: ^8.0.0
+        version: 8.3.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     devDependencies:
       '@babel/eslint-parser':
         specifier: 8.0.7
@@ -7823,10 +7823,10 @@ snapshots:
 
   '@ember-data/adapter@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/legacy': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/utilities': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/legacy': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/utilities': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
       warp-drive: 0.2.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
@@ -7836,9 +7836,9 @@ snapshots:
   '@ember-data/debug@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
       '@ember/edition-utils': 1.2.0
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/utilities': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/utilities': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
       - '@glint/template'
@@ -7846,7 +7846,7 @@ snapshots:
 
   '@ember-data/graph@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
@@ -7855,10 +7855,10 @@ snapshots:
 
   '@ember-data/json-api@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/json-api': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/utilities': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/json-api': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/utilities': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
       - '@glint/template'
@@ -7866,10 +7866,10 @@ snapshots:
 
   '@ember-data/legacy-compat@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/legacy': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/utilities': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/legacy': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/utilities': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
       - '@glint/template'
@@ -7877,10 +7877,10 @@ snapshots:
 
   '@ember-data/model@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/legacy': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/utilities': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/legacy': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/utilities': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
       warp-drive: 0.2.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
@@ -7889,9 +7889,9 @@ snapshots:
 
   '@ember-data/request-utils@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/utilities': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/utilities': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
       - '@glint/template'
@@ -7899,7 +7899,7 @@ snapshots:
 
   '@ember-data/request@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
@@ -7910,10 +7910,10 @@ snapshots:
 
   '@ember-data/serializer@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/legacy': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/utilities': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/legacy': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/utilities': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
       warp-drive: 0.2.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
@@ -7922,7 +7922,7 @@ snapshots:
 
   '@ember-data/store@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@ember-data/tracking@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@ember/test-waiters@3.1.0(supports-color@8.1.1))(supports-color@8.1.1))(@ember/test-waiters@3.1.0(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     optionalDependencies:
       '@ember-data/tracking': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@ember/test-waiters@3.1.0(supports-color@8.1.1))(supports-color@8.1.1)
@@ -7935,7 +7935,7 @@ snapshots:
   '@ember-data/tracking@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@ember/test-waiters@3.1.0(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
       '@ember/test-waiters': 3.1.0(supports-color@8.1.1)
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
@@ -7964,7 +7964,7 @@ snapshots:
   '@ember/test-helpers@3.3.1(@babel/core@7.29.7(supports-color@8.1.1))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(rsvp@4.8.5)(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.31)(uglify-js@3.19.3)))(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.31)(uglify-js@3.19.3))':
     dependencies:
       '@ember/test-waiters': 3.1.0(supports-color@8.1.1)
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@simple-dom/interface': 1.4.0
       broccoli-debug: 0.6.5(supports-color@8.1.1)
       broccoli-funnel: 3.0.8(supports-color@8.1.1)
@@ -7990,17 +7990,18 @@ snapshots:
 
   '@embroider/addon-shim@1.11.0': {}
 
-  '@embroider/macros@1.21.4(supports-color@8.1.1)':
+  '@embroider/macros@1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
       '@embroider/shared-internals': 3.2.1(supports-color@8.1.1)
       assert-never: 1.4.0
       babel-import-util: 3.0.1
-      ember-cli-babel: 7.26.11(supports-color@8.1.1)
+      ember-cli-babel: 8.3.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       find-up: 5.0.0
       lodash: 4.18.1
       resolve: 1.22.13
       semver: 7.8.5
     transitivePeerDependencies:
+      - '@babel/core'
       - supports-color
 
   '@embroider/reverse-exports@0.2.0':
@@ -8778,7 +8779,7 @@ snapshots:
   '@warp-drive/build-config@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
       '@embroider/addon-shim': 1.11.0
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       babel-import-util: 3.0.1
       babel-plugin-debug-macros: 2.0.0(@babel/core@7.29.7(supports-color@8.1.1))
       semver: 7.8.5
@@ -8789,7 +8790,7 @@ snapshots:
 
   '@warp-drive/core-types@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
@@ -8798,7 +8799,7 @@ snapshots:
 
   '@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/build-config': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
@@ -8808,37 +8809,40 @@ snapshots:
   '@warp-drive/ember@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@ember/test-waiters@3.1.0(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
       '@ember/test-waiters': 3.1.0(supports-color@8.1.1)
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
       - '@babel/core'
       - '@glint/template'
       - supports-color
 
-  '@warp-drive/json-api@5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)':
+  '@warp-drive/json-api@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       fuse.js: 7.5.0
       json-to-ast: 2.1.0
     transitivePeerDependencies:
+      - '@babel/core'
       - '@glint/template'
       - supports-color
 
-  '@warp-drive/legacy@5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)':
+  '@warp-drive/legacy@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/utilities': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/utilities': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
+      - '@babel/core'
       - '@glint/template'
       - supports-color
 
-  '@warp-drive/utilities@5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)':
+  '@warp-drive/utilities@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)':
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
     transitivePeerDependencies:
+      - '@babel/core'
       - '@glint/template'
       - supports-color
 
@@ -10458,7 +10462,7 @@ snapshots:
       '@babel/plugin-proposal-private-methods': 7.18.6(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@babel/plugin-transform-class-static-block': 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@babel/preset-env': 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@embroider/reverse-exports': 0.2.0
       '@embroider/shared-internals': 2.9.2(supports-color@8.1.1)
       babel-loader: 8.4.1(@babel/core@7.29.7(supports-color@8.1.1))(webpack@5.112.2(postcss@8.5.31)(uglify-js@3.19.3))
@@ -10861,13 +10865,13 @@ snapshots:
       '@ember-data/tracking': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@ember/test-waiters@3.1.0(supports-color@8.1.1))(supports-color@8.1.1)
       '@ember/edition-utils': 1.2.0
       '@ember/test-waiters': 3.1.0(supports-color@8.1.1)
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/core-types': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@warp-drive/ember': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@ember/test-waiters@3.1.0(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/json-api': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/legacy': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
-      '@warp-drive/utilities': 5.9.1(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/json-api': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/legacy': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(@warp-drive/utilities@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
+      '@warp-drive/utilities': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(@warp-drive/core@5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(supports-color@8.1.1)
     optionalDependencies:
       '@ember/test-helpers': 3.3.1(@babel/core@7.29.7(supports-color@8.1.1))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1))(rsvp@4.8.5)(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.31)(uglify-js@3.19.3)))(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.31)(uglify-js@3.19.3))
       qunit: 3.0.0
@@ -15470,7 +15474,7 @@ snapshots:
 
   warp-drive@0.2.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1):
     dependencies:
-      '@embroider/macros': 1.21.4(supports-color@8.1.1)
+      '@embroider/macros': 1.21.4(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       '@manypkg/get-packages': 3.1.0
       '@warp-drive/core': 5.9.1(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       comment-json: 5.0.0
