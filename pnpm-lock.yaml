@@ -76,8 +76,8 @@ importers:
         specifier: 7.0.0
         version: 7.0.0(supports-color@8.1.1)
       ember-qunit:
-        specifier: 9.2.0
-        version: 9.2.0(@ember/test-helpers@3.3.1(@babel/core@7.29.13(supports-color@8.1.1))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.13(supports-color@8.1.1))(supports-color@8.1.1))(rsvp@4.8.5)(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3)))(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3)))(qunit@3.0.0)
+        specifier: 9.2.1
+        version: 9.2.1(@ember/test-helpers@3.3.1(@babel/core@7.29.13(supports-color@8.1.1))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.13(supports-color@8.1.1))(supports-color@8.1.1))(rsvp@4.8.5)(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3)))(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3)))(qunit@3.0.0)
       ember-resolver:
         specifier: 10.1.1
         version: 10.1.1(@ember/string@3.1.1(supports-color@8.1.1))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.13(supports-color@8.1.1))(supports-color@8.1.1))(rsvp@4.8.5)(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3)))(supports-color@8.1.1)
@@ -3031,8 +3031,8 @@ packages:
     resolution: {integrity: sha512-oq6+HYbeVD/BnxIO5AkP4gWlsatdgW2HFO10F8+XQiJZrwa7cC7Wm54JNGqQkavkDQTgNSiy1Fe2NILJ14MmAg==}
     engines: {node: 12.* || 14.* || >= 16}
 
-  ember-qunit@9.2.0:
-    resolution: {integrity: sha512-y/v9D7/wfH9fWh6p6NPNZ4KMJ97ZdowoASNmLvLrrzDYSVHJDbbbOfFMKLfdvHF942PHMlf6NulKVezO4yNfmw==}
+  ember-qunit@9.2.1:
+    resolution: {integrity: sha512-aZfX6A6092b1bTL6g+dj4gQT0a75YPli3/HBcTaS7AcGCqj/j2CU3FfPIz/ZZkeAe8oVGedttR1FB3Bs6LTEGw==}
     peerDependencies:
       '@ember/test-helpers': '>=3.0.3'
       qunit: ^2.13.0 || ^3.0.0
@@ -10931,7 +10931,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ember-qunit@9.2.0(@ember/test-helpers@3.3.1(@babel/core@7.29.13(supports-color@8.1.1))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.13(supports-color@8.1.1))(supports-color@8.1.1))(rsvp@4.8.5)(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3)))(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3)))(qunit@3.0.0):
+  ember-qunit@9.2.1(@ember/test-helpers@3.3.1(@babel/core@7.29.13(supports-color@8.1.1))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.13(supports-color@8.1.1))(supports-color@8.1.1))(rsvp@4.8.5)(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3)))(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3)))(qunit@3.0.0):
     dependencies:
       '@ember/test-helpers': 3.3.1(@babel/core@7.29.13(supports-color@8.1.1))(ember-source@5.12.0(@glimmer/component@1.1.2(@babel/core@7.29.13(supports-color@8.1.1))(supports-color@8.1.1))(rsvp@4.8.5)(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3)))(supports-color@8.1.1)(webpack@5.112.2(postcss@8.5.33)(uglify-js@3.19.3))
       '@embroider/addon-shim': 1.11.0
