@@ -97,8 +97,8 @@ importers:
         specifier: 10.1.8
         version: 10.1.8(eslint@10.15.0(supports-color@8.1.1))
       eslint-plugin-ember:
-        specifier: 13.11.2
-        version: 13.11.2(@babel/eslint-parser@8.1.2(@babel/core@7.29.13(supports-color@8.1.1))(eslint@10.15.0(supports-color@8.1.1)))(eslint@10.15.0(supports-color@8.1.1))(typescript@6.0.3)
+        specifier: 13.11.3
+        version: 13.11.3(@babel/eslint-parser@8.1.2(@babel/core@7.29.13(supports-color@8.1.1))(eslint@10.15.0(supports-color@8.1.1)))(eslint@10.15.0(supports-color@8.1.1))(typescript@6.0.3)
       eslint-plugin-n:
         specifier: 18.5.0
         version: 18.5.0(eslint@10.15.0(supports-color@8.1.1))(typescript@6.0.3)
@@ -3212,8 +3212,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-ember@13.11.2:
-    resolution: {integrity: sha512-quq6yHknOdp/rQ1EUyqN8SIkIqfkZh7RdIg6du1m0iZllJgeZTlsWYqJVMLnl5NuU6Vjg3ZeoefUA636A1qcaQ==}
+  eslint-plugin-ember@13.11.3:
+    resolution: {integrity: sha512-f2vbfUfAMpou+sZlW8e/yGVJhTt/c1gzkFXEugQIPCzv+62DxyWkk6sXaid8qrS7GOpp4rzFv7Z5PVpGetgpaw==}
     engines: {node: '>= 20.19'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -11233,7 +11233,7 @@ snapshots:
     dependencies:
       eslint: 10.15.0(supports-color@8.1.1)
 
-  eslint-plugin-ember@13.11.2(@babel/eslint-parser@8.1.2(@babel/core@7.29.13(supports-color@8.1.1))(eslint@10.15.0(supports-color@8.1.1)))(eslint@10.15.0(supports-color@8.1.1))(typescript@6.0.3):
+  eslint-plugin-ember@13.11.3(@babel/eslint-parser@8.1.2(@babel/core@7.29.13(supports-color@8.1.1))(eslint@10.15.0(supports-color@8.1.1)))(eslint@10.15.0(supports-color@8.1.1))(typescript@6.0.3):
     dependencies:
       '@ember-data/rfc395-data': 0.0.4
       aria-query: 5.3.2
